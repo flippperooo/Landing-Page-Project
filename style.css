@@ -1,11 +1,48 @@
+#header,#block1,footer{
+    background-color: #1F2937;
+}
 #logo{
     width:100px;
 }
 #link{
     padding-left: 7px;
 }
+#header{
+    display: flex;
+}
 #links{
     display: flex;
     justify-content: right;
+    margin-left:900px;
 
+}
+#block1{
+    display: flex;
+}
+#content{
+    display: block;
+}
+#placeHolder{
+    width:500px;
+    margin-left: 290px;
+}
+#info{
+    display: flex;
+    justify-content: center;
+}
+#block2{
+    display: flex;
+    
+}
+#pH2{
+    width:50px;
+}
+#subtext{
+    display: block;
+}
+#quote{
+    background-color: #E5E7EB;
+}
+#call2Act{
+    background-color: #3882F6;
 }
