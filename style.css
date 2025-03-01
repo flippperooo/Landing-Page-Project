@@ -1,0 +1,11 @@
+#logo{
+    width:100px;
+}
+#link{
+    padding-left: 7px;
+}
+#links{
+    display: flex;
+    justify-content: right;
+
+}
