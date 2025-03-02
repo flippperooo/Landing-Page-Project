@@ -9,9 +9,14 @@
     white-space: nowrap; /* Prevents wrapping */
     width:100px;
     color:#F9FAF8;
+    margin-left: 4%;
 }
 #link{
-    padding-left: 7px;
+    padding-left: 5%;
+    color:#F9FAF8;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-top: 7%;
 }
 #header{
     display: flex;
@@ -30,6 +35,8 @@
     font-size: 48px;
     font-weight: 900;
     color:#F9FAF8;
+    margin-left: 4%;
+    margin-bottom: 4%;
 }
 #button1{
     background-color:#3882F6;
@@ -43,8 +50,12 @@ p{
     font-weight: 50;
 }
 #placeHolder{
-    width:500px;
-    margin-left: 290px;
+    width:70%;
+    margin-left: 12%;
+    margin-bottom:10%;
+    margin-right: 10%;
+    margin-top:10%;
+
 }
 #info{
     display: flex;
