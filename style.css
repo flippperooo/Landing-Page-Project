@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 #header,#block1,footer{
     background-color: #1F2937;
 }
 #logo{
+    display: flex;
+    gap: 10px; /* Space between "header" and "Logo" */
+    white-space: nowrap; /* Prevents wrapping */
     width:100px;
+    color:#F9FAF8;
 }
 #link{
     padding-left: 7px;
@@ -14,13 +20,27 @@
     display: flex;
     justify-content: right;
     margin-left:900px;
-
 }
 #block1{
     display: flex;
 }
 #content{
     display: block;
+    font-family:"Roboto" ;
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9FAF8;
+}
+#button1{
+    background-color:#3882F6;
+    color:#F9FAF8;
+    border:none;
+    border-radius: 10px;
+    padding:10px 20px;
+}
+p{
+    font-size: 18px;
+    font-weight: 50;
 }
 #placeHolder{
     width:500px;
